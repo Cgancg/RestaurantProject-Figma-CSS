@@ -1,0 +1,80 @@
+.specialty-category{ color: #E76F51; font-size: 0.9rem; margin-top: 1rem; margin-bottom: 1rem; padding-bottom: 0.5rem; position: relative; } .specialty-category::after{ content: ""; position: absolute; bottom: 0; left: 0; left: 0; right: 0.5rem; border-bottom: 1px solid black; }
+
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family:'Josefin Sans', sans-serif ;
+}
+
+main,header
+{
+    padding: 1rem;
+}
+
+img /* {default all imgaes to 100% of parent conatainer */
+{
+     width: 100%;
+}
+
+/* header style start */
+header nav ul li
+{
+    display: none;
+}
+#logo
+{
+    display: inline;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-family: 'Rancho', cursive;
+}
+#burger-menu
+{
+    display: inline;
+    font-size: 1.6rem;
+    float: right;
+}
+
+/* header style end */
+
+
+
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+
+@media screen and (min-width:725px) 
+{
+    body
+    {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    main
+    {
+        padding: 0;
+    }
+    header nav ul 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    header nav ul li
+    {
+        display: inline;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    #burger-menu
+    {
+        display:none;
+    }
+}
