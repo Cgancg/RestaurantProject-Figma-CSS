@@ -321,10 +321,10 @@ header nav ul li
     margin-bottom: 1rem;
 }
 
-.reservation-img
+/*.reservation-img
 {
     height:65vh; 
-}
+}*/
 
 .reservation-form-section
 {
@@ -579,7 +579,7 @@ footer
     .reservation-form-section
     {
         position: absolute;
-        top:50px;
+       /* top:50px;*/
         right:50px;
         background-color: rgb(0, 0, 0, 0.75);
         width: 40%;
